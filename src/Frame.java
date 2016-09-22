@@ -28,7 +28,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		if(this.score() == 10 && this.isStrike()==false)
+		if(this.score() == 10 && this.isStrike()==false) return true;
 		return false;
 	}
 }
