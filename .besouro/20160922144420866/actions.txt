@@ -101,3 +101,6 @@ EditAction 1474548960745 BowlingGame.java 1332 6 9 0
 EditAction 1474548963546 BowlingGame.java 1331 6 9 0
 RefactoringAction 1474549031759 TestBowling.java ADD void test_VerifyScore_Return_() METHOD
 EditAction 1474549232689 TestBowling.java 2515 10 37 9
+UnitTestCaseAction 1474549237443 TestBowling.java FAIL
+UnitTestSessionAction 1474549237443 TestBowling.java FAIL
+EditAction 1474549260713 BowlingGame.java 1335 6 9 0
