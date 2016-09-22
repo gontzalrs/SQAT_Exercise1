@@ -68,3 +68,5 @@ EditAction 1474546750415 BowlingGame.java 756 6 5 0
 RefactoringAction 1474546831083 TestBowling.java ADD void test_VerifySetBonus_Return_() METHOD
 EditAction 1474546877095 BowlingGame.java 788 6 5 0
 EditAction 1474546894695 BowlingGame.java 788 6 5 0
+RefactoringAction 1474547118682 TestBowling.java RENAME test_VerifySetBonus_Return_()=>void test_VerifySetBonus_Return_true() METHOD
+EditAction 1474547228583 TestBowling.java 1756 8 26 6

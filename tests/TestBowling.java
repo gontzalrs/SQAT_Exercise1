@@ -68,6 +68,18 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_VerifySetBonus_Return_true(){
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(5, 5);
+		//Act
+		for(int i = 0; i < 10; i++)  //Adds 10 spare frames
+			game.addFrame(frame);
+		game.setBonus(8, 0);
+		//Assert
+	}
+	
+	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
