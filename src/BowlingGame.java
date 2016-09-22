@@ -11,11 +11,6 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	// adds a frame to the game
-	public void addFrame(Frame frame){
-		frames.add(frame);
-	}
-	
 	public List<Frame> getFrames() {
 		return frames;
 	}
@@ -23,10 +18,15 @@ public class BowlingGame {
 	public Frame getBonus() {
 		return bonus;
 	}
+	
+	// adds a frame to the game
+	public void addFrame(Frame frame){
+		frames.add(frame);
+	}
 
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		bonus = new Frame(firstThrow, secondThrow);
 	}
 	
 	// Returns the game score
