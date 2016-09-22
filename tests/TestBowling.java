@@ -68,7 +68,20 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifySetBonus_Return_8(){
+	public void test_VerifySetBonusAfterStrike_Return_8(){
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(10, 0);
+		//Act
+		for(int i = 0; i < 10; i++)  //Adds 10 spare frames
+			game.addFrame(frame);
+		game.setBonus(8, 0);
+		//Assert
+		assertEquals(8, game.getBonus().score());
+	}
+	
+	@Test
+	public void test_VerifySetBonusAfterSpare_Return_8(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(5, 5);

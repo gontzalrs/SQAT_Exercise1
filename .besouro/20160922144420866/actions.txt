@@ -84,3 +84,11 @@ EditAction 1474547443711 TestBowling.java 1798 8 27 7
 UnitTestCaseAction 1474547446852 TestBowling.java OK
 UnitTestSessionAction 1474547446852 TestBowling.test_VerifySetBonus_Return_8 OK
 EditAction 1474548228209 BowlingGame.java 946 6 5 0
+UnitTestCaseAction 1474548228513 TestBowling.java FAIL
+UnitTestSessionAction 1474548228514 TestBowling.java FAIL
+RefactoringAction 1474548248072 TestBowling.java ADD void test_VerifySetBonus_Return_8()/2 METHOD
+RefactoringAction 1474548254077 TestBowling.java RENAME test_VerifySetBonus_Return_8()/2=>void test_VerifySetBonusAfter_Return_8() METHOD
+RefactoringAction 1474548257583 TestBowling.java RENAME test_VerifySetBonusAfter_Return_8()=>void test_VerifySetBonusAfterSpare_Return_8() METHOD
+RefactoringAction 1474548261589 TestBowling.java RENAME test_VerifySetBonus_Return_8()=>void test_VerifySetBonusAfter_Return_8() METHOD
+RefactoringAction 1474548263594 TestBowling.java RENAME test_VerifySetBonusAfter_Return_8()=>void test_VerifySetBonusAfterStrike_Return_8() METHOD
+EditAction 1474548271913 TestBowling.java 2140 9 32 8
