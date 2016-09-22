@@ -114,17 +114,17 @@ public class TestBowling {
 		Frame frameStrike = new Frame(10, 0);
 		Frame frameSpare = new Frame(0, 10);
 		//Act
-		game.addFrame(frame);
-		game.addFrame(frameSpare);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frameStrike);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frameSpare);
-		game.setBonus(8, 2);
+		game.addFrame(frame);		//0 + 8 = 8
+		game.addFrame(frameSpare);	//10 + 8 = 18
+		game.addFrame(frame);		//8 + 18 + 4(spare) = 30
+		game.addFrame(frame);		//8 + 30 = 38
+		game.addFrame(frameStrike); //10 + 38 = 48
+		game.addFrame(frame);		//8 + 48 + 8(strike) = 64
+		game.addFrame(frame);		//8 + 64 = 72
+		game.addFrame(frame);		//8 + 72 = 80
+		game.addFrame(frame);		//8 + 80 = 88
+		game.addFrame(frameSpare);	//10 + 88 = 98
+		game.setBonus(8, 2);		//8 + 98 + 8(spare) = 114
 		//Assert
 		assertEquals(80, game.score());
 	}
@@ -137,17 +137,17 @@ public class TestBowling {
 		Frame frameStrike = new Frame(10, 0);
 		Frame frameSpare = new Frame(0, 10);
 		//Act
-		game.addFrame(frame);
-		game.addFrame(frameSpare);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frameStrike);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frameStrike);
-		game.setBonus(8, 2);
+		game.addFrame(frame);		//0 + 8 = 8
+		game.addFrame(frameSpare);	//10 + 8 = 18
+		game.addFrame(frame);		//8 + 18 + 4(spare) = 30
+		game.addFrame(frame);		//8 + 30 = 38
+		game.addFrame(frameStrike); //10 + 38 = 48
+		game.addFrame(frame);		//8 + 48 + 8(strike) = 64
+		game.addFrame(frame);		//8 + 64 = 72
+		game.addFrame(frame);		//8 + 72 = 80
+		game.addFrame(frame);		//8 + 80 = 88
+		game.addFrame(frameStrike);	//10 + 88 = 98
+		game.setBonus(8, 2);		//10 + 98 + 10(strike) = 118
 		//Assert
 		assertEquals(80, game.score());
 	}

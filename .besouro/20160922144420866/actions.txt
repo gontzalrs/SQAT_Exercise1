@@ -129,3 +129,4 @@ RefactoringAction 1474549519184 TestBowling.java RENAME test_VerifyScore_StrikeL
 RefactoringAction 1474549523188 TestBowling.java RENAME test_VerifyScore_SpareLastThrow_Return_80()=>void test_VerifyScore_SpareOnLastThrow_Return_80() METHOD
 CompilationAction 1474549544842 TestBowling.java
 EditAction 1474549554915 TestBowling.java 3717 12 69 11
+EditAction 1474550022066 TestBowling.java 4114 12 69 11
