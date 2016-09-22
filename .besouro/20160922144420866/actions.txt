@@ -43,3 +43,6 @@ RefactoringAction 1474545826079 TestBowling.java ADD void test_CheckIfIsStrike_R
 RefactoringAction 1474545831088 TestBowling.java RENAME test_CheckIfIsStrike_Returns_true()/2=>void test_CheckIfIsSpare_Returns_true() METHOD
 RefactoringAction 1474545850606 TestBowling.java RENAME test_CheckIfIsStrike_Returns_false()/2=>void test_CheckIfIsSpare_Returns_false() METHOD
 EditAction 1474545878625 TestBowling.java 1174 6 16 5
+UnitTestCaseAction 1474545884695 TestBowling.java FAIL
+UnitTestSessionAction 1474545884695 TestBowling.java FAIL
+EditAction 1474545992479 BowlingGame.java 622 4 2 0
