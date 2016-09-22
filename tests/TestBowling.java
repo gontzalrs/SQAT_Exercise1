@@ -68,16 +68,16 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifySetBonus_Return_BonusFrame(){
+	public void test_VerifySetBonus_Return_8(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(5, 5);
 		//Act
 		for(int i = 0; i < 10; i++)  //Adds 10 spare frames
 			game.addFrame(frame);
-		game.setBonus(5, 5);
+		game.setBonus(8, 0);
 		//Assert
-		assertEquals(frame, game.getBonus());
+		assertEquals(8, game.getBonus().score());
 	}
 	
 	@Test
