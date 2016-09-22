@@ -383,3 +383,6 @@
 1474550091067 test-first 1 771 true
 1474550091068 test-first 1 771 true
 1474550091069 test-first 1 771 true
+1474550102163 refactoring 1A 8 true
+1474550102164 refactoring 3 8 true
+1474550102165 refactoring 3 8 true
