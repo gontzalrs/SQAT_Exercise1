@@ -75,7 +75,7 @@ public class TestBowling {
 		//Act
 		for(int i = 0; i < 10; i++)  //Adds 10 spare frames
 			game.addFrame(frame);
-		game.setBonus(8, 0);
+		game.setBonus(5, 5);
 		//Assert
 		assertEquals(frame, game.getBonus());
 	}

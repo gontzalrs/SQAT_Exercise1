@@ -74,3 +74,6 @@ RefactoringAction 1474547334406 TestBowling.java RENAME test_VerifySetBonus_Retu
 RefactoringAction 1474547336410 TestBowling.java RENAME test_VerifySetBonus_Return_Bonu()=>void test_VerifySetBonus_Return_BonusFrame() METHOD
 EditAction 1474547347498 TestBowling.java 1803 8 27 7
 EditAction 1474547355798 BowlingGame.java 831 6 5 0
+UnitTestCaseAction 1474547356121 TestBowling.java FAIL
+UnitTestSessionAction 1474547356122 TestBowling.java FAIL
+EditAction 1474547383912 TestBowling.java 1803 8 27 7
