@@ -106,3 +106,6 @@ UnitTestSessionAction 1474549237443 TestBowling.java FAIL
 EditAction 1474549260713 BowlingGame.java 1335 6 9 0
 RefactoringAction 1474549276987 TestBowling.java RENAME test_VerifyScore_Return_()=>void test_VerifyScore_Return_80() METHOD
 EditAction 1474549277732 TestBowling.java 2517 10 37 9
+UnitTestCaseAction 1474549280303 TestBowling.java OK
+UnitTestSessionAction 1474549280303 TestBowling.test_VerifyScore_Return_80 OK
+EditAction 1474549320041 BowlingGame.java 1335 6 9 0
