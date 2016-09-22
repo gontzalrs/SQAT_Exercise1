@@ -107,7 +107,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifyScore_SpareOnLastThrow_Return_80(){
+	public void test_VerifyScore_SpareOnLastThrow_Return_114(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(4, 4);
@@ -126,11 +126,11 @@ public class TestBowling {
 		game.addFrame(frameSpare);	//10 + 88 = 98
 		game.setBonus(8, 2);		//8 + 98 + 8(spare) = 114
 		//Assert
-		assertEquals(80, game.score());
+		assertEquals(114, game.score());
 	}
 	
 	@Test
-	public void test_VerifyScore_StrikeOnLastThrow_Return_80(){
+	public void test_VerifyScore_StrikeOnLastThrow_Return_118(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(4, 4);
@@ -149,7 +149,7 @@ public class TestBowling {
 		game.addFrame(frameStrike);	//10 + 88 = 98
 		game.setBonus(8, 2);		//10 + 98 + 10(strike) = 118
 		//Assert
-		assertEquals(80, game.score());
+		assertEquals(118, game.score());
 	}
 	
 	@Test
