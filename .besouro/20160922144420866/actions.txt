@@ -111,3 +111,21 @@ UnitTestSessionAction 1474549280303 TestBowling.test_VerifyScore_Return_80 OK
 EditAction 1474549320041 BowlingGame.java 1335 6 9 0
 RefactoringAction 1474549332496 TestBowling.java ADD void test_VerifyScore_Return_80()/2 METHOD
 EditAction 1474549380761 TestBowling.java 2975 11 44 10
+CompilationAction 1474549380997 TestBowling.java
+RefactoringAction 1474549474620 TestBowling.java RENAME test_VerifyScore_Return_80()/2=>void test_VerifyScore_No_Return_80() METHOD
+RefactoringAction 1474549477624 TestBowling.java RENAME test_VerifyScore_No_Return_80()=>void test_VerifyScore_NoSpareOr_Return_80() METHOD
+RefactoringAction 1474549479129 TestBowling.java RENAME test_VerifyScore_NoSpareOr_Return_80()=>void test_VerifyScore_NoSpareOrStrike_Return_80() METHOD
+RefactoringAction 1474549480635 TestBowling.java RENAME test_VerifyScore_NoSpareOrStrike_Return_80()=>void test_VerifyScore_NoSpareOrStrikes_Return_80() METHOD
+RefactoringAction 1474549482138 TestBowling.java RENAME test_VerifyScore_NoSpareOrStrikes_Return_80()=>void test_VerifyScore_NoSpareOrStrike_Return_80() METHOD
+RefactoringAction 1474549486642 TestBowling.java RENAME test_VerifyScore_Return_80()=>void test_VerifyScore___Return_80() METHOD
+RefactoringAction 1474549488146 TestBowling.java RENAME test_VerifyScore___Return_80()=>void test_VerifyScore__Return_80() METHOD
+RefactoringAction 1474549493152 TestBowling.java RENAME test_VerifyScore__Return_80()=>void test_VerifyScore_Spare_Return_80() METHOD
+RefactoringAction 1474549501158 TestBowling.java RENAME test_VerifyScore_Spare_Return_80()=>void test_VerifyScore_SpareLast_Return_80() METHOD
+RefactoringAction 1474549503165 TestBowling.java RENAME test_VerifyScore_SpareLast_Return_80()=>void test_VerifyScore_SpareLastThrow_Return_80() METHOD
+RefactoringAction 1474549512669 TestBowling.java ADD void test_VerifyScore_SpareLastThrow_Return_80()/2 METHOD
+RefactoringAction 1474549516175 TestBowling.java RENAME test_VerifyScore_SpareLastThrow_Return_80()/2=>void test_VerifyScore_StLastThrow_Return_80() METHOD
+RefactoringAction 1474549517179 TestBowling.java RENAME test_VerifyScore_StLastThrow_Return_80()=>void test_VerifyScore_StrikeLastThrow_Return_80() METHOD
+RefactoringAction 1474549519184 TestBowling.java RENAME test_VerifyScore_StrikeLastThrow_Return_80()=>void test_VerifyScore_StrikeOnLastThrow_Return_80() METHOD
+RefactoringAction 1474549523188 TestBowling.java RENAME test_VerifyScore_SpareLastThrow_Return_80()=>void test_VerifyScore_SpareOnLastThrow_Return_80() METHOD
+CompilationAction 1474549544842 TestBowling.java
+EditAction 1474549554915 TestBowling.java 3717 12 69 11

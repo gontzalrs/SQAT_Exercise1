@@ -94,7 +94,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifyScore_Return_80(){
+	public void test_VerifyScore_NoSpareOrStrike_Return_80(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(4, 4);
@@ -107,16 +107,47 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifyScore_Return_80(){
+	public void test_VerifyScore_SpareOnLastThrow_Return_80(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(4, 4);
 		Frame frameStrike = new Frame(10, 0);
 		Frame frameSpare = new Frame(0, 10);
 		//Act
-		for(int i = 0; i < 10; i++)  //Adds 10 equal frames, no spare, no strike
-			game.addFrame(frame);
-		game.setBonus(8, 0);  //Tries to add a bonus even when it should not
+		game.addFrame(frame);
+		game.addFrame(frameSpare);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frameStrike);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frameSpare);
+		game.setBonus(8, 2);
+		//Assert
+		assertEquals(80, game.score());
+	}
+	
+	@Test
+	public void test_VerifyScore_StrikeOnLastThrow_Return_80(){
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(4, 4);
+		Frame frameStrike = new Frame(10, 0);
+		Frame frameSpare = new Frame(0, 10);
+		//Act
+		game.addFrame(frame);
+		game.addFrame(frameSpare);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frameStrike);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frameStrike);
+		game.setBonus(8, 2);
 		//Assert
 		assertEquals(80, game.score());
 	}
