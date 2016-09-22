@@ -65,3 +65,5 @@ RefactoringAction 1474546547380 BowlingGame.java REMOVE getFrames() METHOD
 RefactoringAction 1474546551387 BowlingGame.java ADD List<Frame> getFrames() METHOD
 RefactoringAction 1474546551388 BowlingGame.java ADD Frame getBonus() METHOD
 EditAction 1474546750415 BowlingGame.java 756 6 5 0
+RefactoringAction 1474546831083 TestBowling.java ADD void test_VerifySetBonus_Return_() METHOD
+EditAction 1474546877095 BowlingGame.java 788 6 5 0
