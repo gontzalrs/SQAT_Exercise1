@@ -3,3 +3,15 @@ FileOpenedAction 1474544700391 Frame.java 671 6 7 0
 FileOpenedAction 1474544769125 TestBowling.java 165 1 1 0
 FileOpenedAction 1474544782222 SudokuVerifierTest.java 3897 11 33 11
 EditAction 1474545299224 Frame.java 671 6 7 0
+RefactoringAction 1474545311657 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1474545357172 TestBowling.java RENAME test()/2=>void testVerifier() METHOD
+RefactoringAction 1474545359676 TestBowling.java RENAME testVerifier()=>void test_() METHOD
+RefactoringAction 1474545368680 TestBowling.java RENAME test_()=>void test_Get() METHOD
+RefactoringAction 1474545370685 TestBowling.java RENAME test_Get()=>void test_GetScore() METHOD
+RefactoringAction 1474545376188 TestBowling.java RENAME test_GetScore()=>void test_GetScoreOfFrame() METHOD
+RefactoringAction 1474545378193 TestBowling.java RENAME test_GetScoreOfFrame()=>void test_GetScoreOfFrame_() METHOD
+RefactoringAction 1474545383197 TestBowling.java RENAME test_GetScoreOfFrame_()=>void test_GetScoreOfFrame_Return() METHOD
+RefactoringAction 1474545384201 TestBowling.java RENAME test_GetScoreOfFrame_Return()=>void test_GetScoreOfFrame_Returns() METHOD
+RefactoringAction 1474545385709 TestBowling.java RENAME test_GetScoreOfFrame_Returns()=>void test_GetScoreOfFrame_Returns_() METHOD
+RefactoringAction 1474545392714 TestBowling.java RENAME test_GetScoreOfFrame_Returns_()=>void test_GetScoreOfFrame_Returns_9() METHOD
+EditAction 1474545429151 TestBowling.java 267 2 1 0
