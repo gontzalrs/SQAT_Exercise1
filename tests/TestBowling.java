@@ -27,7 +27,7 @@ public class TestBowling {
 	@Test
 	public void test_CheckIfIsStrike_Returns_false() {
 		//Arrange
-		Frame frame = new Frame(9, 0);
+		Frame frame = new Frame(0, 10);
 		//Act
 		boolean result = frame.isStrike();
 		//Assert

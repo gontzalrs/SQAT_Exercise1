@@ -31,3 +31,4 @@ CompilationAction 1474545684232 TestBowling.java
 RefactoringAction 1474545695039 TestBowling.java ADD void test_CheckIfIsStrike_Returns_true()/2 METHOD
 RefactoringAction 1474545701044 TestBowling.java RENAME test_CheckIfIsStrike_Returns_true()/2=>void test_CheckIfIsStrike_Returns_false() METHOD
 EditAction 1474545705750 TestBowling.java 766 4 10 3
+EditAction 1474545717393 TestBowling.java 767 4 10 3
