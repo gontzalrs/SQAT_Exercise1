@@ -55,6 +55,19 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_VerifyAddFrameToBowlingGame(){
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(0, 0);
+		//Act
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		//Assert
+		assertEquals(3, game.getFrames().size());
+	}
+	
+	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
