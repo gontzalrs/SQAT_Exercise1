@@ -92,3 +92,6 @@ RefactoringAction 1474548257583 TestBowling.java RENAME test_VerifySetBonusAfter
 RefactoringAction 1474548261589 TestBowling.java RENAME test_VerifySetBonus_Return_8()=>void test_VerifySetBonusAfter_Return_8() METHOD
 RefactoringAction 1474548263594 TestBowling.java RENAME test_VerifySetBonusAfter_Return_8()=>void test_VerifySetBonusAfterStrike_Return_8() METHOD
 EditAction 1474548271913 TestBowling.java 2140 9 32 8
+UnitTestCaseAction 1474548276520 TestBowling.java FAIL
+UnitTestSessionAction 1474548276520 TestBowling.java FAIL
+EditAction 1474548301808 TestBowling.java 2140 9 32 8
