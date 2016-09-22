@@ -38,3 +38,8 @@ UnitTestSessionAction 1474545732556 TestBowling.java FAIL
 EditAction 1474545793695 Frame.java 714 6 8 0
 CompilationAction 1474545793922 Frame.java
 EditAction 1474545818766 Frame.java 727 6 9 0
+RefactoringAction 1474545826078 TestBowling.java ADD void test_CheckIfIsStrike_Returns_true()/2 METHOD
+RefactoringAction 1474545826079 TestBowling.java ADD void test_CheckIfIsStrike_Returns_false()/2 METHOD
+RefactoringAction 1474545831088 TestBowling.java RENAME test_CheckIfIsStrike_Returns_true()/2=>void test_CheckIfIsSpare_Returns_true() METHOD
+RefactoringAction 1474545850606 TestBowling.java RENAME test_CheckIfIsStrike_Returns_false()/2=>void test_CheckIfIsSpare_Returns_false() METHOD
+EditAction 1474545878625 TestBowling.java 1174 6 16 5
