@@ -31,7 +31,7 @@ public class TestBowling {
 		//Act
 		boolean result = frame.isStrike();
 		//Assert
-		assertEquals(true, result);
+		assertEquals(false, result);
 	}
 	
 	@Test
