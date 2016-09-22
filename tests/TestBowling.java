@@ -94,7 +94,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifyScore_Return_(){
+	public void test_VerifyScore_Return_80(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(4, 4);
