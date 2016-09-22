@@ -36,7 +36,23 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
+		int score = 0;
+		Frame prevFrame = new Frame(0, 0);
+		for(Frame f : frames){
+			if(prevFrame.isSpare()){
+				score = score + f.score() + f.getFirstThrow();
+			}
+			else if(prevFrame.isStrike()){
+				score = score + f.score() + f.score();
+			}
+			else{
+				score = score + f.score();
+			}
+			prevFrame = f;
+		}
+		if(frames.size()>=10 && frames.get(frames.size()-1).score()==10){
+			score = score + bonus.score();
+		} 
 		return 0;
 	}
 }
