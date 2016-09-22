@@ -151,10 +151,5 @@ public class TestBowling {
 		//Assert
 		assertEquals(118, game.score());
 	}
-	
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 
 }

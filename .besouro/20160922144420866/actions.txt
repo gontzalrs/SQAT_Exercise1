@@ -138,3 +138,9 @@ UnitTestSessionAction 1474550048055 TestBowling.test_VerifyScore_SpareOnLastThro
 UnitTestCaseAction 1474550056593 TestBowling.java FAIL
 UnitTestSessionAction 1474550056593 TestBowling.java FAIL
 EditAction 1474550087226 BowlingGame.java 1337 6 9 0
+UnitTestCaseAction 1474550091060 TestBowling.java OK
+UnitTestSessionAction 1474550091060 TestBowling.test_VerifyScore_StrikeOnLastThrow_Return_118 OK
+UnitTestCaseAction 1474550093708 TestBowling.java FAIL
+UnitTestSessionAction 1474550093708 TestBowling.java FAIL
+RefactoringAction 1474550098644 TestBowling.java REMOVE test() METHOD
+EditAction 1474550101855 TestBowling.java 4048 11 68 11
