@@ -51,7 +51,7 @@ public class BowlingGame {
 			prevFrame = f;
 		}
 		if(frames.size()>=10 && frames.get(frames.size()-1).score()==10){
-			score = score + bonus.score();
+			score = score + bonus.score()*2;
 		}
 		return score;
 	}

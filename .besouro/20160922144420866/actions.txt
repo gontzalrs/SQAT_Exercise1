@@ -133,3 +133,8 @@ EditAction 1474550022066 TestBowling.java 4114 12 69 11
 RefactoringAction 1474550041105 TestBowling.java RENAME test_VerifyScore_StrikeOnLastThrow_Return_80()=>void test_VerifyScore_StrikeOnLastThrow_Return_118() METHOD
 RefactoringAction 1474550044109 TestBowling.java RENAME test_VerifyScore_SpareOnLastThrow_Return_80()=>void test_VerifyScore_SpareOnLastThrow_Return_114() METHOD
 EditAction 1474550045177 TestBowling.java 4118 12 69 11
+UnitTestCaseAction 1474550048054 TestBowling.java FAIL
+UnitTestSessionAction 1474550048055 TestBowling.test_VerifyScore_SpareOnLastThrow_Return_114 FAIL
+UnitTestCaseAction 1474550056593 TestBowling.java FAIL
+UnitTestSessionAction 1474550056593 TestBowling.java FAIL
+EditAction 1474550087226 BowlingGame.java 1337 6 9 0
