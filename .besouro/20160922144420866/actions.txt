@@ -21,3 +21,13 @@ UnitTestSessionAction 1474545515572 TestBowling.java FAIL
 EditAction 1474545581111 Frame.java 685 6 8 0
 RefactoringAction 1474545601965 TestBowling.java ADD void test_GetScoreOfFrame_Returns_9()/2 METHOD
 EditAction 1474545640063 TestBowling.java 558 3 7 2
+CompilationAction 1474545640290 TestBowling.java
+RefactoringAction 1474545662011 TestBowling.java RENAME test_GetScoreOfFrame_Returns_9()/2=>void test_Check_Returns_9() METHOD
+RefactoringAction 1474545663516 TestBowling.java RENAME test_Check_Returns_9()=>void test_CheckIf_Returns_9() METHOD
+RefactoringAction 1474545670522 TestBowling.java RENAME test_CheckIf_Returns_9()=>void test_CheckIfIs_Returns_9() METHOD
+RefactoringAction 1474545673027 TestBowling.java RENAME test_CheckIfIs_Returns_9()=>void test_CheckIfIsStrike_Returns_9() METHOD
+RefactoringAction 1474545676531 TestBowling.java RENAME test_CheckIfIsStrike_Returns_9()=>void test_CheckIfIsStrike_Returns_true() METHOD
+CompilationAction 1474545684232 TestBowling.java
+RefactoringAction 1474545695039 TestBowling.java ADD void test_CheckIfIsStrike_Returns_true()/2 METHOD
+RefactoringAction 1474545701044 TestBowling.java RENAME test_CheckIfIsStrike_Returns_true()/2=>void test_CheckIfIsStrike_Returns_false() METHOD
+EditAction 1474545705750 TestBowling.java 766 4 10 3

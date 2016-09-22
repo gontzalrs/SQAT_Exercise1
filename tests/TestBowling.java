@@ -15,9 +15,19 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_GetScoreOfFrame_Returns_9() {
+	public void test_CheckIfIsStrike_Returns_true() {
 		//Arrange
 		Frame frame = new Frame(10, 0);
+		//Act
+		boolean result = frame.isStrike();
+		//Assert
+		assertEquals(true, result);
+	}
+	
+	@Test
+	public void test_CheckIfIsStrike_Returns_false() {
+		//Arrange
+		Frame frame = new Frame(9, 0);
 		//Act
 		boolean result = frame.isStrike();
 		//Assert
