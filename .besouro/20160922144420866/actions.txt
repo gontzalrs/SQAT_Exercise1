@@ -15,3 +15,4 @@ RefactoringAction 1474545384201 TestBowling.java RENAME test_GetScoreOfFrame_Ret
 RefactoringAction 1474545385709 TestBowling.java RENAME test_GetScoreOfFrame_Returns()=>void test_GetScoreOfFrame_Returns_() METHOD
 RefactoringAction 1474545392714 TestBowling.java RENAME test_GetScoreOfFrame_Returns_()=>void test_GetScoreOfFrame_Returns_9() METHOD
 EditAction 1474545429151 TestBowling.java 267 2 1 0
+EditAction 1474545507190 TestBowling.java 356 2 4 1
