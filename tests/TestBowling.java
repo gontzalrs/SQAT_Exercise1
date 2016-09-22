@@ -55,7 +55,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_VerifyAddFrameToBowlingGame(){
+	public void test_VerifyAddFrameToBowlingGame_Returns_3(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(0, 0);
