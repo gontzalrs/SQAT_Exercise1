@@ -109,3 +109,5 @@ EditAction 1474549277732 TestBowling.java 2517 10 37 9
 UnitTestCaseAction 1474549280303 TestBowling.java OK
 UnitTestSessionAction 1474549280303 TestBowling.test_VerifyScore_Return_80 OK
 EditAction 1474549320041 BowlingGame.java 1335 6 9 0
+RefactoringAction 1474549332496 TestBowling.java ADD void test_VerifyScore_Return_80()/2 METHOD
+EditAction 1474549380761 TestBowling.java 2975 11 44 10
