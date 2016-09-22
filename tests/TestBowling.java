@@ -94,6 +94,19 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_VerifyScore_Return_(){
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(4, 4);
+		//Act
+		for(int i = 0; i < 10; i++)  //Adds 10 equal frames, no spare, no strike
+			game.addFrame(frame);
+		game.setBonus(8, 0);  //Tries to add a bonus even when it should not
+		//Assert
+		assertEquals(80, game.score());
+	}
+	
+	@Test
 	public void test() {
 		fail("Not yet implemented");
 	}
